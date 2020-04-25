@@ -1,0 +1,19 @@
+{
+  "parser": "babel-eslint",
+  "plugins": ["prettier", "import", "node", "promise", "standard"],
+  "extends": ["eslint:recommended"],
+  "parserOptions": {
+    "ecmaVersion": 2019,
+    "sourceType": "module"
+  },
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "globals": {
+    "document": "readonly",
+    "navigator": "readonly",
+    "window": "readonly"
+  },
+  "overrides": []
+}
